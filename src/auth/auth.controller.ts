@@ -45,7 +45,7 @@ export class AuthController {
    // return user;
      return this.authService.findAll();
   }
-
+/*
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.authService.findOne(+id);
@@ -60,4 +60,5 @@ export class AuthController {
   remove(@Param('id') id: string) {
     return this.authService.remove(+id);
   }
+  */
 }
